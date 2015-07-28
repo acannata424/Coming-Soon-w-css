@@ -1,0 +1,115 @@
+
+*{
+	box-sizing: border box;
+}
+
+body {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #bfbdbe;
+	background: #777378 url(../img/background.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1, h2, button{
+	font-family: Teko, sans-serif, helvetica, Arial;
+	font-weight: 300px;
+	font-size: 120px;
+	line-height: 1px;
+	letter-spacing: 12px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 30px;
+	letter-spacing: 4px;
+	margin-bottom: 30px;
+}
+
+
+input{
+	width: 350px;
+	padding: 14px;
+	font-size: 16px;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+}
+
+button{
+	font-size: 20px;
+	letter-spacing: 4px;
+	padding: 18px;
+	color: #fff;
+	background-color: #f63c3c;
+	border: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+	max-width: 1170px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.top_bar{
+	margin-bottom: 100px;
+}
+
+
+.logo{
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	display:none;
+}
+
+.menu {
+	width: 70px;
+	height: 70px;
+	padding: 27px 22px;
+	background-color: #352d2f;
+}
+
+.icon_bar{
+	display: block;
+	height: 2px;
+	width: 24px;
+	margin-bottom: 3px;
+	background-color: #fff;
+}
+
+main{
+	width: 60%;
+	margin-bottom: 60px;
+}
+
+.lead{
+	font-size: 26px;
+	font-weight: 300; 
+	color: #d9d8d9;
+	line-height: 32px;
+	margin-bottom: 30px;
+}
+
+aside{
+	width: 45%;
+}
+
+aside p{
+	font-size: 18px;
+	margin-bottom: 32px;
+}
